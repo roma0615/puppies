@@ -1,0 +1,15 @@
+<h1>Virtual Puppy</h1>
+<h2>The page of puppies!</h2>
+
+<img src="<%= @image_url %>" >
+
+<p>Your puppy's mood is <%= cookies['mood'] %> out of 10</p>
+
+<div class="actions">
+<a href="/process_action?act=feed">Feed</a> |
+<a href="/process_action?act=scold">Scold</a> |
+  
+  
+  
+<a href="/process_action?act=reset">Reset</a>
+</div>
